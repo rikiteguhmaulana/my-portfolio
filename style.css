@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
   background: var(--bg-1);
   color: var(--text);
   line-height: 1.6;
@@ -288,8 +288,8 @@ body::after {
 }
 .avatar-container {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -301,8 +301,8 @@ body::after {
 }
 /* Matahari (Sun) - Elemento visual */
 .sun-core {
-  width: 168px; /* 40% larger than 120px */
-  height: 168px; /* 40% larger than 120px */
+  width: 240px; /* Significantly larger */
+  height: 240px;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -541,13 +541,13 @@ body::after {
   }
 
   .avatar-container {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
   }
 
   .sun-core {
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
   }
 
 
@@ -591,6 +591,16 @@ body::after {
   .orbit-icon.git {
     width: 24px;
     height: 24px;
+  }
+  
+  .orbit-icon.php {
+    width: 26px;
+    height: 26px;
+  }
+
+  .orbit-icon.xampp {
+    width: 28px;
+    height: 28px;
   }
 
   .moon-orbit {
@@ -637,13 +647,13 @@ body::after {
   }
 
   .avatar-container {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
 
   .sun-core {
-    width: 60px;
-    height: 60px;
+    width: 140px;
+    height: 140px;
   }
 
 
@@ -687,6 +697,16 @@ body::after {
   .orbit-icon.git {
     width: 20px;
     height: 20px;
+  }
+
+  .orbit-icon.php {
+    width: 22px;
+    height: 22px;
+  }
+
+  .orbit-icon.xampp {
+    width: 24px;
+    height: 24px;
   }
 
   .moon-orbit {
